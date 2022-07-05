@@ -73,3 +73,11 @@ pairs(dados)
 cor(dados$Happiness.score, 
     dados$Explained.by..Healthy.life.expectancy, 
     use="complete")
+
+cor(dados$Happiness.score, 
+    dados$Explained.by..Freedom.to.make.life.choices, 
+    use="complete")
+
+cor(dados$Happiness.score, 
+    dados$Explained.by..Social.support, 
+    use="complete")
